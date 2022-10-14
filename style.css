@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: black;
+}
+
+h2 {
+    font-weight: bold;
+}
+
+div {
+    background-color: white;
+    background-image: url(./fotos/papelparede.jpg);
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    flex-wrap: wrap;
+    font-size: medium;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+header{
+    background-color: white;
+    background-image: url(./fotos/papelparede.jpg);
+    display: flex;
+    height: 10vh;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+
+main {
+    background-color: white;
+    background-image: url(./fotos/papelparede.jpg);
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    flex-wrap: wrap;
+    font-size: medium;   
+}
+
+#idHerois{
+    margin: 10px;
+}
+
+section {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    font-weight: bold;
+    justify-content: center;
+    width: 500px;
+    height: 280px;
+    margin: 5px;
+}
+
+footer {
+    display: flex;
+    background-color: darkgrey;
+    font-size: medium;
+    height: 10vh;
+    font-weight: bold;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+
+@media screen and (max-device-width: 480px)  {
+    body{
+      display: flex;
+      width: 100vw;
+    }
+
+    main{
+      display: flex;
+      flex-wrap: wrap;
+      font-size: 100%;
+    }
+    aside, section{
+      width: 100vw;
+    }
+    header{
+      text-align: center;
+      width: 100vw;
+    }
+
+    footer {
+        width: 100vw;
+        
+    }
+} 
